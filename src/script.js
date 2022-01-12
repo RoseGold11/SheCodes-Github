@@ -9,7 +9,7 @@ let days = [
   "Saturday",
 ];
 let date = new Date();
-let showDate = document.querySelector("h4");
+let showDate = document.querySelector("#date-and-time");
 showDate.innerHTML = `${
   days[date.getDay()]
 } | ${date.getHours()}:${date.getMinutes()}`;
